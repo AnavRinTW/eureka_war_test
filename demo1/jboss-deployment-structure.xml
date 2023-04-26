@@ -1,0 +1,9 @@
+<jboss-deployment-structure>
+    <deployment>
+    <!-- Exclusions allow you to prevent the server from automatically adding
+    some dependencies -->
+        <exclude-subsystems>
+            <subsystem name="logging"/>
+        </exclude-subsystems>
+    </deployment>
+</jboss-deployment-structure>
